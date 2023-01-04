@@ -1,9 +1,13 @@
 import * as S from "./style";
 import { ReactComponent as Search } from "assets/icons/search.svg";
+import Menu from "components/Menu";
+import { RoutePath } from "types/routes";
+import { navigationItems } from "data/navigation";
 
 const Home = () => {
   return (
     <S.Home>
+      <Menu active={RoutePath.HOME} navItems={navigationItems} />
       <S.HomeContent>
         <header>
           <S.HomeHeaderDetails>

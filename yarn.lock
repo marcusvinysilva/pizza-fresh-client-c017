@@ -1776,6 +1776,19 @@
     "@svgr/plugin-svgo" "^5.5.0"
     loader-utils "^2.0.0"
 
+"@tanstack/query-core@4.20.9":
+  version "4.20.9"
+  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-4.20.9.tgz#62eb14c2fd6688eaa507452881c96a2c8b6d2544"
+  integrity sha512-XTEEvOGy7wlABPTYfmg7U287WYcf2PV8lH15oKWD2I09okqMOHrB23WxyikEVRwJCjYNKcCW0BuYaAY4S2g/jg==
+
+"@tanstack/react-query@^4.20.9":
+  version "4.20.9"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-4.20.9.tgz#0ec2e734085570ce642ae7de8586eb31d562532c"
+  integrity sha512-OqwcmqkxOYgLbVjsMm4Cl8MMZ063VqdRw1GpSWqN8WgppftPiFJTDb6Q1TX5I/ciCbHmRWNPE/D0ayyTesAKug==
+  dependencies:
+    "@tanstack/query-core" "4.20.9"
+    use-sync-external-store "^1.2.0"
+
 "@testing-library/dom@^8.5.0":
   version "8.19.1"
   resolved "https://registry.yarnpkg.com/@testing-library/dom/-/dom-8.19.1.tgz#0e2dafd281dedb930bb235eac1045470b4129d0e"
@@ -8770,6 +8783,11 @@ url-parse@^1.5.3:
   dependencies:
     querystringify "^2.1.1"
     requires-port "^1.0.0"
+
+use-sync-external-store@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/use-sync-external-store/-/use-sync-external-store-1.2.0.tgz#7dbefd6ef3fe4e767a0cf5d7287aacfb5846928a"
+  integrity sha512-eEgnFxGQ1Ife9bzYs6VLi8/4X6CObHMw9Qr9tPY43iKwsPw8xE8+EFsf/2cFZ5S3esXgpWgtSCtLNS41F+sKPA==
 
 util-deprecate@^1.0.1, util-deprecate@^1.0.2, util-deprecate@~1.0.1:
   version "1.0.2"
